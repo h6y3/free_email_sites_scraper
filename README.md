@@ -6,7 +6,33 @@ The most comprehensive list I can find on the Internet is on [HubSpot's knowledg
 
 ## Usage
 
+
+### Using the library in code
+
 ```ruby
+require './free_email_sites_scraper.rb'
 scraper = FreeEmailSitesScraper.new
 puts scraper.emails #array of string emails
 ```
+
+### Generating a txt file (one email per line)
+
+```ruby
+require './free_email_sites_scraper.rb'
+
+scraper = FreeEmailSitesScraper.new
+scraper.to_txt("emails.txt") #write csv file
+```
+
+### Generating ruby code to a file (for copy-pasting, and hard-coding purposes)
+
+```ruby
+require './free_email_sites_scraper.rb'
+
+scraper = FreeEmailSitesScraper.new
+scraper.to_ruby("email_declaration.rb") #write an array declaration for hardcoding entries
+```
+
+## Files
+
+- [emails.txt](emails.txt) - Sample file
