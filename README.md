@@ -35,4 +35,6 @@ scraper.to_ruby("email_declaration.rb") #write an array declaration for hardcodi
 
 ## Files
 
-- [emails.txt](emails.txt) - Sample file
+- [emails.txt](emails.txt) - Sample txt file generated
+- [emails_declaration.rb](emails_declaration.rb) - Sample ruby code file generated
+- [sample.rb](sample.rb) - Sample code for usage
