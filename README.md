@@ -1,8 +1,8 @@
 # Free Email Sites Scraper
 
-Often times sites need to understand when someone has signed-up using a free email which can indicate if the user is a consumer versus a business with a proper domain.  
+How do you tell the difference between a corporate email and a consumer email?  One way is to determine if the user is using a free email provider!
 
-The most comprehensive list I can find on the Internet is on [HubSpot's knowledgebase of what domains they block](https://knowledge.hubspot.com/forms/what-domains-are-blocked-when-using-the-forms-email-domains-to-block-feature).
+The most comprehensive list of free email providers I can find on the Internet is on [HubSpot's knowledgebase of what domains they block](https://knowledge.hubspot.com/forms/what-domains-are-blocked-when-using-the-forms-email-domains-to-block-feature).  This repo contains a small class that simply scrapes Hubspots page and provides a few utilities so you can either use the data in your own code, or use the class and integrate it into your runtime environment.  Now, you can filter the business emails out and target those customers directly.
 
 ## Usage
 
