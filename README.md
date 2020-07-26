@@ -21,7 +21,7 @@ puts scraper.emails #array of string emails
 require './free_email_sites_scraper.rb'
 
 scraper = FreeEmailSitesScraper.new
-scraper.to_txt("emails.txt") #write csv file
+scraper.to_txt("emails.txt") #write txt file
 ```
 
 ### Generating ruby code to a file (for copy-pasting, and hard-coding purposes)
